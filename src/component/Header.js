@@ -42,10 +42,11 @@ export default Header
 
 const Nav = styled.nav `
     height: 70px;
-    background: black;
+    background: #090b13;
     display: flex;
     align-items: center;
     padding: 0 30px;
+    overflow-x: hidden;
 `
 
 const Logo = styled.img `
