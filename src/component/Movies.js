@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 function Movies() {
     return (
@@ -7,17 +8,25 @@ function Movies() {
             <h4>Reccomended for you</h4>
             <Content>
                 <Wrap>
+                    <Link to= {`/detail`} >
                     <img src="https://media.npr.org/assets/img/2012/04/10/ap100512117837-1--d27b59825b79f0946e2503738f692e103de5e199-s800-c85.webp" />
+                    </Link>
                 </Wrap>
                 <Wrap>
+                <Link to= {`/detail`} >
                     <img src="https://media.npr.org/assets/img/2012/04/10/ap100512117837-1--d27b59825b79f0946e2503738f692e103de5e199-s800-c85.webp" />
-                </Wrap>
-                <Wrap>
+                    </Link>
+                </Wrap> 
+                 <Wrap>
+                 <Link to= {`/detail`} >
                     <img src="https://media.npr.org/assets/img/2012/04/10/ap100512117837-1--d27b59825b79f0946e2503738f692e103de5e199-s800-c85.webp" />
-                </Wrap>
-                <Wrap>
+                    </Link> 
+                </Wrap>  
+                 <Wrap>
+                 <Link to= {`/detail`} >
                     <img src="https://media.npr.org/assets/img/2012/04/10/ap100512117837-1--d27b59825b79f0946e2503738f692e103de5e199-s800-c85.webp" />
-                </Wrap>
+                    </Link>
+                </Wrap>  
           
             </Content>
         </Container>
