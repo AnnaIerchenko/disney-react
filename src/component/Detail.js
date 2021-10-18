@@ -122,14 +122,17 @@ const AddButton = styled.button `
     }
 `
 const GroupWatchButton = styled(AddButton) `
-    background: rgb(0, 0, 0);
+    
+    img {
+        object-fit: cover;
+    }
 `
 
 const SubTitle = styled.div `
-    background: rgb(249, 249, 249);
     font-size: 15px;
     min-height: 20px;
     margin-top: 25px;
+    color: black;
 `
 const Description = styled.div `
     line-height: 1.4;
